@@ -1,4 +1,4 @@
-# browser-blocker
+# Browser Blocker
 Block outdated Internet Explorer from your website and display a friendly message of upgrading to modern browsers.
 
 ![Screenshot][2]
