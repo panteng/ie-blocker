@@ -4,17 +4,19 @@
  * Released under the MIT License.
  */
 window.onload = function () {
-    var bbContainer,
+    var ibContainer,
         browserIcons,
         scriptPath,
         browserName;
 
-    bbContainer = document.getElementById('ib-container');
+    ibContainer = document.getElementById('ib-container');
 
     // the path to the image cannot be relative in a filter. Have to use javascript to get the absolute path.
-    browserIcons = bbContainer.getElementsByTagName('i');
+    browserIcons = ibContainer.getElementsByTagName('i');
     for (var i = 0; i < document.scripts.length; i++) {
-        if (scriptPath = document.scripts[i].src.match(/(.*)ie-blocker\.js/)[1]) {
+
+        if (match = document.scripts[i].src.match(/(.*)ie-blocker\.js/)) {
+            scriptPath = match[1];
             break;
         }
     }
@@ -25,5 +27,5 @@ window.onload = function () {
         }
     }
 
-    bbContainer.style.display = 'block';
+    ibContainer.style.display = 'block';
 };
