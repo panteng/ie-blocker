@@ -1,7 +1,7 @@
 # IE Blocker
 Block outdated Internet Explorer from your website and display a friendly message of upgrading to modern browsers.
 
-![Screenshot][2]
+![Screenshot][1]
 
 ## Usage
 
@@ -24,7 +24,7 @@ Block outdated Internet Explorer from your website and display a friendly messag
         <![endif]-->
 
 ## License
-[MIT][3]
-  [1]: http://browsehappy.com/
-  [2]: https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.png
-  [3]: http://opensource.org/licenses/mit-license.html
+[MIT][2]
+
+  [1]: https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.png
+  [2]: http://opensource.org/licenses/mit-license.html
