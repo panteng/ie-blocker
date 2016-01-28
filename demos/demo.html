@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>An IE-Blocker Demo</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="../ie-blocker/ie-blocker.css">
+    <script src="../ie-blocker/ie-blocker.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+    <div>
+        <h1>An IE-Blocker Demo</h1>
+        <p>If you visit this page with IE 6-9, a modal dialog will show up.</p>
+        <p>Otherwise, nothing happens.</p>
+    </div>
+    
+    <!--[if lte IE 9]>
+    <div id="ib-container">
+        <div class="ib-modal">
+            <div class="ib-header">
+                <h1>You are using an outdated browser.</h1>
+                <p>To display the website correctly and protect your information,
+                    <br><strong>please use one of these up-to-date, free and excellent browsers.</strong>
+                </p>
+            </div>
+            <ul class="ib-browsers">
+                <li>
+                    <a href="http://www.google.com/chrome/browser/desktop/index.html">
+                        <i class="ib-browser-icon ib-ua-chrome"></i>
+                        <div class="ib-browser-name">Chrome</div>
+                        <div class="ib-browser-description">A fast new browser from Google.</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.firefox.com">
+                        <i class="ib-browser-icon ib-ua-firefox"></i>
+                        <div class="ib-browser-name">Firefox</div>
+                        <div class="ib-browser-description">Your online security is Firefox's top priority</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.apple.com/safari">
+                        <i class="ib-browser-icon ib-ua-safari"></i>
+                        <div class="ib-browser-name">Safari</div>
+                        <div class="ib-browser-description">Safari for Mac from Apple, the world's most innovative browser.</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.opera.com">
+                        <i class="ib-browser-icon ib-ua-opera"></i>
+                        <div class="ib-browser-name">Opera</div>
+                        <div class="ib-browser-description">The fastest browser on Earth.</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://windows.microsoft.com/en-US/internet-explorer/download-ie">
+                        <i class="ib-browser-icon ib-ua-ie11"></i>
+                        <div class="ib-browser-name">IE 11</div>
+                        <div class="ib-browser-description">Designed to help you take control of your privacy. Free from Microsoft.</div>
+                    </a>
+                </li>
+            </ul>
+            <div class="ib-footer">
+                <a class="ib-try" href="http://www.google.com/chrome/browser/desktop/index.html">Try Chrome now!</a>
+            </div>
+        </div>
+        <div class="ib-mask"></div>
+    </div>
+    <![endif]-->
+    
+</body>
+</html>
