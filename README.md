@@ -12,7 +12,7 @@ Block outdated Internet Explorer from your website and display a friendly messag
         <link rel="stylesheet" href="ie-blocker/ie-blocker.css">
         <script src="ie-blocker/ie-blocker.js"></script>
         <![endif]-->
- 3. Place the following html code before the closing `<body>` tag. You can find the full code in **dialog.html**. Use conditional comments to make it only work in old version IE.
+ 3. Place the following html code before the closing `<body>` tag. You can find the full code in **template.html**. Use conditional comments to make it only work in old version IE.
 
         <!--[if lte IE 8]>
         <div id="ib-container">

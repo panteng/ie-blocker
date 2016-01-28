@@ -4,10 +4,12 @@
  * Released under the MIT License.
  */
 window.onload = function () {
-    var ibContainer,
-        browserIcons,
-        scriptPath,
-        browserName;
+    var ibContainer;
+    var browserIcons;
+    var scriptPath;
+    var browserName;
+    var imgPath;
+    var options;
 
     ibContainer = document.getElementById('ib-container');
 
