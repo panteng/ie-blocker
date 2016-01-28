@@ -57,7 +57,7 @@ So if you want to place these images somewhere else, you need to add an attribut
         <link rel="stylesheet" href="ie-blocker/ie-blocker.css">
         <script src="ie-blocker/ie-blocker.js" img-path="../images/browser_icons/"></script>
         <![endif]-->
-Remember the **img-path** is relative to **ie-blocker.js**, not the html file.
+Remember the **img-path** is relative to **ie-blocker.js**, not to the html file.
 Do not forget the '/' at the end.
 
 ## License
