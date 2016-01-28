@@ -8,6 +8,7 @@ Block outdated Internet Explorer from your website and display a friendly messag
 Please visit the websites below **with IE 6-9**. 
 
 [English Version][2]
+
 [中文版本][3]
 
 ## Install
