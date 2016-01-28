@@ -1,0 +1,12 @@
+{
+  "name": "ie-blocker",
+  "version": "1.1.1",
+  "description": "Block outdated Internet Explorer from your website and display a friendly message of upgrading to modern browsers.",
+  "main": "ie-blocker/ie-blocker.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panteng/ie-blocker.git"
+  },
+  "author": "Chris Pan",
+  "license": "MIT"
+}
