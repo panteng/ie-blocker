@@ -27,8 +27,6 @@ Optionally, you can install IE-Blocker with Bower or Npm:
 
 ## Usage
 
-### Manual Install
-
  1. Include **ie-blocker.css** and **ie-blocker.js** inside the `<head>` tag. Use conditional comments to make these codes only work in old version IE.
 
         <!--[if lte IE 8]>
