@@ -2,19 +2,20 @@
 Block outdated Internet Explorer from your website and display a friendly message of upgrading to modern browsers.
 
 ![Screenshot][1]
+![Screenshot.zhCN][2]
 
 ## Live Preview
 
 Please visit the websites below **with IE 6-9**. 
 
-[English Version][2]
+[English Version][3]
 
-[中文版本][3]
+[中文版本][4]
 
 ## Install
 
 ### Install Manually
-Simply download the latest version of IE-Blocker from [this page][4]. Unzip the file and place the **ie-blocker** folder into your projects.
+Simply download the latest version of IE-Blocker from [this page][5]. Unzip the file and place the **ie-blocker** folder into your projects.
 
 ### Install Using Bower or Npm
 Optionally, you can install IE-Blocker with Bower or Npm:
@@ -61,11 +62,12 @@ Remember the **img-path** is relative to **ie-blocker.js**, not to the html file
 Do not forget the '/' at the end.
 
 ## License
-[MIT][5]
+[MIT][6]
 
 
   [1]: https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.png
-  [2]: http://panteng.me/demos/ie-blocker/demo.html
-  [3]: http://panteng.me/demos/ie-blocker/demo.zhCN.html
-  [4]: https://github.com/panteng/ie-blocker/releases
-  [5]: http://opensource.org/licenses/mit-license.html
+  [1]: https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.zhCN.png
+  [3]: http://panteng.me/demos/ie-blocker/demo.html
+  [4]: http://panteng.me/demos/ie-blocker/demo.zhCN.html
+  [5]: https://github.com/panteng/ie-blocker/releases
+  [6]: http://opensource.org/licenses/mit-license.html
