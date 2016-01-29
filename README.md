@@ -67,7 +67,7 @@ Do not forget the '/' at the end.
 
 
   [1]: https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.png
-  [1]: https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.zhCN.png
+  [2]: https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.zhCN.png
   [3]: http://panteng.me/demos/ie-blocker/demo.html
   [4]: http://panteng.me/demos/ie-blocker/demo.zhCN.html
   [5]: https://github.com/panteng/ie-blocker/releases
