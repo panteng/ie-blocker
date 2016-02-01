@@ -63,7 +63,7 @@ Remember the **img-path** is relative to **ie-blocker.js**, not to the html file
 Do not forget the '/' at the end.
 
 ## License
-[MIT][6]
+MIT
 
 
   [1]: https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.png
@@ -71,4 +71,3 @@ Do not forget the '/' at the end.
   [3]: http://panteng.me/demos/ie-blocker/demo.html
   [4]: http://panteng.me/demos/ie-blocker/demo.zhCN.html
   [5]: https://github.com/panteng/ie-blocker/releases
-  [6]: http://opensource.org/licenses/mit-license.html
