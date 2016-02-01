@@ -13,6 +13,7 @@
     "bower_components",
     "test",
     "tests",
+    "demos",
     "screenshot.png",
     "screenshot.zhCN.png",
     ".gitignore"
