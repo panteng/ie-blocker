@@ -12,6 +12,9 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "screenshot.png",
+    "screenshot.zhCN.png",
+    ".gitignore"
   ]
 }
