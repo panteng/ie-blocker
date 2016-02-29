@@ -20,7 +20,6 @@ window.onload = function () {
         if (match = document.scripts[i].src.match(/(.*)ie-blocker\.js/)) {
             scriptPath = match[1];
             imgPath = scriptPath + (document.scripts[i].getAttribute('img-path') || 'img/');
-            console.log(imgPath);
             break;
         }
     }
