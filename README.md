@@ -1,14 +1,21 @@
 # IE-Blocker
 
-> 再见吧~IE！
+> 再也不想跟IE打交道了！
+
+IE-Blocker帮助你通知用户他们的浏览器已经过时，并阻止用户继续访问网站。
 
 ![Screenshot][1]
+
+## 适用场景
+
+如果你的网站不支持IE6-9，那么使用旧版IE的用户访问你的网站时会看到一个布局错乱、功能失效的网站。IE-Blocker正式为了避免这种尴尬而生。使用IE-Blocker的网站不允许旧版IE用户访问网站内容，取而代之的是，用户会看到一个友好又精美的提示框，告知他们为何无法继续访问网站，并引导他们下载使用最新的浏览器。
 
 ## 实时预览
 
 请使用 **IE 6-9** 浏览器访问下面的链接。
 
 [实时预览 - 中文版][2]
+
 [Live Preview - English Version][3]
 
 
@@ -30,7 +37,7 @@
 
 IE-Blocker的使用非常简单。
 
-只需要在`<head>`标签中引入 **ie-blocker.css** 和 **ie-blocker.zhCN.js（或ie-blocker.en.js）**。使用IE特有的条件注释，以保证IE-Blocker只在旧版IE中被加载。例如：
+只需要在`<head>`标签中引入 **ie-blocker.css** 和 **ie-blocker.zhCN.js（或ie-blocker.en.js）**。使用IE特有的条件注释，以保证IE-Blocker只在旧版IE中被加载（IE的版本范围可根据需要自定义）。例如：
 
         <!--[if lte IE 8]>
         <link rel="stylesheet" href="ie-blocker/ie-blocker.css">
