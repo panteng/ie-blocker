@@ -56,7 +56,7 @@ IE-Blocker的使用非常简单。
 
         <!--[if lte IE 8]>
         <link rel="stylesheet" href="ie-blocker/ie-blocker.css">
-        <script src="ie-blocker/ie-blocker.js" img-path="../images/browser_icons/"></script>
+        <script src="ie-blocker/ie-blocker.zhCN.js" img-path="../images/browser_icons/"></script>
         <![endif]-->
     
     注意 **img-path** 中指定的路径是相对于 **ie-blocker.zhCN.js（或ie-blocker.en.js)**的，而不是相对于当前HTML文件的。
