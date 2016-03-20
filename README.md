@@ -1,73 +1,63 @@
 # IE-Blocker
-Block outdated Internet Explorer from your website and display a friendly message of upgrading to modern browsers.
+
+> 再见吧~IE！
 
 ![Screenshot][1]
 
-![Screenshot.zhCN][2]
+## 实时预览
 
-## Live Preview
+请使用 **IE 6-9** 浏览器访问下面的链接。
 
-Please visit the websites below **with IE 6-9**. 
+[实时预览 - 中文版][2]
+[Live Preview - English Version][3]
 
-[English Version][3]
 
-[中文版本][4]
+## 安装方法
 
-## Install
+### 手动安装
+你可以直接从**[Release][4]**页面下载最新版本的IE-Blocker。将下载好的文件解压，并将其中名为ie-blocker的文件夹放到你的项目中。
 
-### Install Manually
-Simply download the latest version of IE-Blocker from [this page][5]. Unzip the file and place the **ie-blocker** folder into your projects.
-
-### Install Using Bower or Npm
-Optionally, you can install IE-Blocker with Bower or Npm:
+### 使用Bower或NPM安装
+你还可以使用最喜欢的包管理器进行安装，在控制台中运行：
 
     // With Bower
-    bower install ie-blocker
+    bower install ie-blocker --save
     
     // With Npm
-    npm install ie-blocker
+    npm install ie-blocker --save
 
-## Usage
+## 使用方法
 
- 1. Include **ie-blocker.css** and **ie-blocker.js** inside the `<head>` tag. Use conditional comments to make these codes only work in old version IE.
+IE-Blocker的使用非常简单。
+
+只需要在`<head>`标签中引入 **ie-blocker.css** 和 **ie-blocker.zhCN.js（或ie-blocker.en.js）**。使用IE特有的条件注释，以保证IE-Blocker只在旧版IE中被加载。例如：
 
         <!--[if lte IE 8]>
         <link rel="stylesheet" href="ie-blocker/ie-blocker.css">
-        <script src="ie-blocker/ie-blocker.js"></script>
+        <script src="ie-blocker/ie-blocker.zhCN.js"></script>
         <![endif]-->
 
- 2. Place the following html code before the closing `<body>` tag. You can find the full code in **template.html**. Use conditional comments to make these codes only work in old version IE.
 
-        <!--[if lte IE 8]>
-        <div id="ib-container">
-            <div class="ib-modal">
-                ...
-            </div>
-            <div class="ib-mask"></div>
-        </div>
-        <![endif]-->
-    
- 3. That's it.
-
-## Options
+## 配置项
 
  - img-path:
-IE-Blocker uses some images to display browser icons. By default, IE-Blocker will look for these images in the **img** folder which locates at the same path of **ie-blocker.js**.
-So if you want to place these images somewhere else, you need to add an attribute **img-path** to **script** tag. For example:
+    IE-Blocker使用图片来展示浏览器图标。默认情况下，IE-Blocker会在ie-blocker.zhCN.js（或ie-blocker.en.js）所在的目录中寻找名为**img**的文件夹。
+
+    如果你想把这些图片放到其他路径下，你需要在引入IE-Blocker的script元素上增加名为**img-path**的属性。例如：
 
         <!--[if lte IE 8]>
         <link rel="stylesheet" href="ie-blocker/ie-blocker.css">
         <script src="ie-blocker/ie-blocker.js" img-path="../images/browser_icons/"></script>
         <![endif]-->
-Remember the **img-path** is relative to **ie-blocker.js**, not to the html file.
-Do not forget the '/' at the end.
+    
+    注意 **img-path** 中指定的路径是相对于 **ie-blocker.zhCN.js（或ie-blocker.en.js)**的，而不是相对于当前HTML文件的。
+
+    不要忘记末尾的斜杠'/'。
 
 ## License
 MIT
 
-
-  [1]: https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.png
-  [2]: https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.zhCN.png
-  [3]: http://panteng.me/demos/ie-blocker/demo.html
-  [4]: http://panteng.me/demos/ie-blocker/demo.zhCN.html
-  [5]: https://github.com/panteng/ie-blocker/releases
+  [1]: https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.jpg
+  [2]: http://panteng.me/demos/ie-blocker/demo.zhCN.html
+  [3]: http://panteng.me/demos/ie-blocker/demo.en.html
+  [4]: https://github.com/panteng/ie-blocker/releases
