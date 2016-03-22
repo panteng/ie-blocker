@@ -68,7 +68,6 @@
     browserIcons = ibContainer.getElementsByTagName('i');
 
     for (var i = 0; i < document.scripts.length; i++) {
-
         if (match = document.scripts[i].src.match(/(.*)ie-blocker.zhCN\.js/)) {
             scriptPath = match[1];
             imgPath = scriptPath + (document.scripts[i].getAttribute('img-path') || 'img/');
@@ -84,9 +83,7 @@
     }
 
     window.onload = function () {
-
         document.body.appendChild(ibContainer);
-
         ibContainer.style.display = 'block';
     };
 })();
