@@ -1,15 +1,14 @@
 (function () {
     var ibContainer;
+    var html;
     var browserIcons;
     var scriptPath;
-    var browserName;
     var imgPath;
-    var html;
-
+    var browserName;
+    
     ibContainer = document.createElement('div');
     ibContainer.setAttribute('id', 'ib-container');
 
-    var html="";
     html += "<div class=\"ib-modal\">";
     html += "    <div class=\"ib-header\">";
     html += "        <h1>您的浏览器需要更新<\/h1>";
@@ -59,8 +58,6 @@
     html += "    <\/div>";
     html += "<\/div>";
     html += "<div class=\"ib-mask\"><\/div>";
-    html += "";
-
 
     ibContainer.innerHTML = html;
 
