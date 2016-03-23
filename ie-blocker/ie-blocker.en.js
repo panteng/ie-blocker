@@ -1,15 +1,14 @@
 (function () {
     var ibContainer;
+    var html;
     var browserIcons;
     var scriptPath;
-    var browserName;
     var imgPath;
-    var html;
-
+    var browserName;
+    
     ibContainer = document.createElement('div');
     ibContainer.setAttribute('id', 'ib-container');
 
-    html = "";
     html += "<div class=\"ib-modal\">";
     html += "    <div class=\"ib-header\">";
     html += "        <h1>You are using an outdated browser.<\/h1>";
@@ -59,7 +58,6 @@
     html += "    <\/div>";
     html += "<\/div>";
     html += "<div class=\"ib-mask\"><\/div>";
-    html += "";
 
     ibContainer.innerHTML = html;
 
