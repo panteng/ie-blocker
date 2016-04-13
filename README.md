@@ -37,9 +37,7 @@ IE-Blocker帮助你通知用户他们的浏览器已经过时，并阻止用户�
 
 ## 使用方法
 
-IE-Blocker的使用非常简单。
-
-只需要在`<head>`标签中引入 **ie-blocker.css** 和 **ie-blocker.zhCN.js（或ie-blocker.en.js）**。使用IE特有的条件注释，以保证IE-Blocker只在旧版IE中被加载（IE的版本范围可根据需要自定义）。例如：
+在`<head>`标签中引入 **ie-blocker.css** 和 **ie-blocker.zhCN.js（或ie-blocker.en.js）**。使用IE特有的条件注释，以保证IE-Blocker只在旧版IE中被加载（IE的版本范围可根据需要自定义）。例如：
 
         <!--[if lte IE 8]>
         <link rel="stylesheet" href="ie-blocker/ie-blocker.css">
