@@ -145,10 +145,6 @@
     _bottom: auto;
     _width: expression(eval(document.documentElement.clientWidth) + 'px');
     _height: expression(eval(document.documentElement.clientHeight) + 'px');
-    z-index: 99999;
-}
-
-.ib-mask {
     background: rgb(0, 0, 0);
     opacity: 0.8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
