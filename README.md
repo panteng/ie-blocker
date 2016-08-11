@@ -64,7 +64,7 @@ IE-Blocker帮助你通知用户他们的浏览器已经过时，并阻止用户�
 ## License
 MIT
 
-  [1]: https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.jpg
+  [1]: https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.png
   [2]: http://panteng.me/demos/ie-blocker/demo.zhCN.html
   [3]: http://panteng.me/demos/ie-blocker/demo.en.html
   [4]: https://github.com/panteng/ie-blocker/releases
