@@ -1,6 +1,6 @@
 {
   "name": "ie-blocker",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "A lightweight modal component, which 'politely' suggests your users to stop using outdated IE browsers.",
   "repository": {
     "type": "git",
