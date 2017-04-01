@@ -26,7 +26,7 @@ Download from GitHub Release page: **[Release](https://github.com/panteng/ie-blo
 
 ### Install through npm or Bower
 
-    // With Npm
+    // With npm
     npm install ie-blocker --save
 
     // With Bower
@@ -38,10 +38,10 @@ Download from GitHub Release page: **[Release](https://github.com/panteng/ie-blo
 
 Include **ie-blocker.css** 和 **ie-blocker.en.js** in the `<head>` tag. And wrap them into conditional comments for IE:
 
-        <!--[if lte IE 8]>
-        <link rel="stylesheet" href="ie-blocker/ie-blocker.css">
-        <script src="ie-blocker/ie-blocker.zhCN.js"></script>
-        <![endif]-->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="ie-blocker/ie-blocker.css">
+    <script src="ie-blocker/ie-blocker.zhCN.js"></script>
+    <![endif]-->
 
 
 
