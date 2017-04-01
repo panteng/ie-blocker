@@ -16,9 +16,9 @@ IE-Blocker帮助你通知用户他们的浏览器已经过时，并阻止用户�
 
 请使用 **IE 6-9** 浏览器访问下面的链接。
 
-[实时预览 - 中文版][2]
+[Live Preview - English Version][http://panteng.me/demos/ie-blocker/demo.en.html]
 
-[Live Preview - English Version][3]
+[实时预览 - 中文版][http://panteng.me/demos/ie-blocker/demo.zhcn.html]
 
 
 ## 安装方法
@@ -65,6 +65,4 @@ IE-Blocker帮助你通知用户他们的浏览器已经过时，并阻止用户�
 MIT
 
   [1]: https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.png
-  [2]: http://panteng.me/demos/ie-blocker/demo.zhCN.html
-  [3]: http://panteng.me/demos/ie-blocker/demo.en.html
   [4]: https://github.com/panteng/ie-blocker/releases
