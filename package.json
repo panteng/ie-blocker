@@ -1,12 +1,11 @@
 {
   "name": "ie-blocker",
   "version": "2.0.0",
-  "description": "Block outdated Internet Explorer from your website and display a friendly message of upgrading to modern browsers.",
-  "main": "ie-blocker/ie-blocker.js",
+  "description": "A lightweight modal component, which 'politely' suggests your users to stop using outdated IE browsers.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/panteng/ie-blocker.git"
   },
-  "author": "Chris Pan",
+  "author": "Chris Pan <mail@panteng.me>",
   "license": "MIT"
 }
