@@ -10,9 +10,9 @@ A lightweight modal component, which 'politely' suggests your users to stop usin
 
 Please use **IE 6-9** to visit the following links:
 
-[Live Preview - English Version](http://panteng.me/demos/ie-blocker/demo.en.html)
+[Live Preview - English Version](http://panteng.me/demos/ie-blocker/demos/demo.en.html)
 
-[实时预览 - 中文版](http://panteng.me/demos/ie-blocker/demo.zhcn.html)
+[实时预览 - 中文版](http://panteng.me/demos/ie-blocker/demos/demo.zhcn.html)
 
 You will see a modal dialog which asks you to update your browser. This is exactly what IE-Blocker does.
 
