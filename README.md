@@ -2,7 +2,7 @@
 
 A lightweight modal component, which 'politely' suggests your users to stop using outdated IE browsers.
 
-![Screenshot][https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.png]
+![Screenshot](https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.png)
 
 
 
@@ -10,9 +10,9 @@ A lightweight modal component, which 'politely' suggests your users to stop usin
 
 Please use **IE 6-9** to visit the following links:
 
-[Live Preview - English Version][http://panteng.me/demos/ie-blocker/demo.en.html]
+[Live Preview - English Version](http://panteng.me/demos/ie-blocker/demo.en.html)
 
-[实时预览 - 中文版][http://panteng.me/demos/ie-blocker/demo.zhcn.html]
+[实时预览 - 中文版](http://panteng.me/demos/ie-blocker/demo.zhcn.html)
 
 You will see a modal dialog which asks you to update your browser. This is exactly what IE-Blocker does.
 
@@ -22,7 +22,7 @@ You will see a modal dialog which asks you to update your browser. This is exact
 
 ### Download from GitHub
 
-Download from GitHub Release page: **[Release][https://github.com/panteng/ie-blocker/releases]**
+Download from GitHub Release page: **[Release](https://github.com/panteng/ie-blocker/releases)**
 
 ### Install through npm or Bower
 
