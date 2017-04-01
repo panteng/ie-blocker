@@ -40,7 +40,7 @@ Include **ie-blocker.css** 和 **ie-blocker.en.js** in the `<head>` tag. And wra
 
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="ie-blocker/ie-blocker.css">
-    <script src="ie-blocker/ie-blocker.zhCN.js"></script>
+    <script src="ie-blocker/ie-blocker.en.js"></script>
     <![endif]-->
 
 
@@ -54,7 +54,7 @@ Include **ie-blocker.css** 和 **ie-blocker.en.js** in the `<head>` tag. And wra
 
         <!--[if lte IE 8]>
         <link rel="stylesheet" href="ie-blocker/ie-blocker.css">
-        <script src="ie-blocker/ie-blocker.zhCN.js" img-path="../images/browser_icons/"></script>
+        <script src="ie-blocker/ie-blocker.en.js" img-path="../images/browser_icons/"></script>
         <![endif]-->
     
     The path in option `img-path` is relative to **ie-blocker.en.js**. And please don't forget the '/' in the end of the path.
