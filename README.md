@@ -20,10 +20,6 @@ You will see a modal dialog which asks you to update your browser. This is exact
 
 ## Installation
 
-### Download from GitHub
-
-Download from GitHub Release page: **[Release](https://github.com/panteng/ie-blocker/releases)**
-
 ### Install through npm or Bower
 
     // With npm
