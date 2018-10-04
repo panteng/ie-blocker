@@ -2,7 +2,7 @@
   "name": "ie-blocker",
   "description": "A lightweight modal component, which 'politely' suggests your users to stop using outdated IE browsers.",
   "authors": [
-    "Chris Pan <mail@panteng.me>"
+    "Chris Pan <chrispan.pt@gmail.com>"
   ],
   "license": "MIT",
   "homepage": "https://github.com/panteng/ie-blocker",
