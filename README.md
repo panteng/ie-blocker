@@ -12,7 +12,7 @@ Please use **IE 6-9** to visit the following links:
 
 [Live Preview - English Version](https://panteng.github.io/ie-blocker/demos/demo.en.html)
 
-[实时预览 - 中文版](https://panteng.github.io/ie-blocker/demos/demo.zhcn.html)
+[实时预览 - 中文版](https://panteng.github.io/ie-blocker/demos/demo.zhCN.html)
 
 You will see a modal dialog which asks you to update your browser. This is exactly what IE-Blocker does.
 
@@ -27,7 +27,7 @@ You will see a modal dialog which asks you to update your browser. This is exact
 
     // With Bower
     bower install ie-blocker --save
-    
+
 
 
 ## Usage
@@ -52,7 +52,7 @@ Include **ie-blocker.css** and **ie-blocker.en.js** in the `<head>` tag. And wra
         <link rel="stylesheet" href="ie-blocker/ie-blocker.css">
         <script src="ie-blocker/ie-blocker.en.js" img-path="../images/browser_icons/"></script>
         <![endif]-->
-    
+
     The path in option `img-path` is relative to **ie-blocker.en.js**. And please don't forget the '/' in the end of the path.
 
 
