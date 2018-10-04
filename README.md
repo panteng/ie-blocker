@@ -10,9 +10,9 @@ A lightweight modal component, which 'politely' suggests your users to stop usin
 
 Please use **IE 6-9** to visit the following links:
 
-[Live Preview - English Version](http://panteng.me/demos/ie-blocker/demos/demo.en.html)
+[Live Preview - English Version](https://panteng.github.io/ie-blocker/demos/demo.en.html)
 
-[实时预览 - 中文版](http://panteng.me/demos/ie-blocker/demos/demo.zhcn.html)
+[实时预览 - 中文版](https://panteng.github.io/ie-blocker/demos/demo.zhcn.html)
 
 You will see a modal dialog which asks you to update your browser. This is exactly what IE-Blocker does.
 
@@ -36,7 +36,7 @@ Download from GitHub Release page: **[Release](https://github.com/panteng/ie-blo
 
 ## Usage
 
-Include **ie-blocker.css** 和 **ie-blocker.en.js** in the `<head>` tag. And wrap them into conditional comments for IE:
+Include **ie-blocker.css** and **ie-blocker.en.js** in the `<head>` tag. And wrap them into conditional comments for IE:
 
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="ie-blocker/ie-blocker.css">
