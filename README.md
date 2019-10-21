@@ -1,6 +1,6 @@
 # IE-Blocker
 
-A lightweight modal component, which 'politely' suggests your users to stop using outdated IE browsers.
+A lightweight modal for asking website visitors to stop using outdated IE browsers.
 
 ![Screenshot](https://raw.githubusercontent.com/panteng/ie-blocker/master/screenshot.png)
 
@@ -14,9 +14,7 @@ Please use **IE 6-9** to visit the following links:
 
 [实时预览 - 中文版](https://panteng.github.io/ie-blocker/demos/demo.zhCN.html)
 
-You will see a modal dialog which asks you to update your browser. This is exactly what IE-Blocker does.
-
-
+You will see a modal dialog which asks you to switch to a modern browser.
 
 ## Installation
 
@@ -45,15 +43,15 @@ Include **ie-blocker.css** and **ie-blocker.en.js** in the `<head>` tag. And wra
 
  - img-path:
 
-    IE-Blocker uses images to display browsers icons. These images are placed under the **img** folder within the same directory of **ie-blocker.en.js**.
-    But you can change it if you want:
+    By default, browser icon images are placed under the **img** folder within the same directory of **ie-blocker.en.js**.
+    You can change the path by adding the `img-path` attribute:
 
         <!--[if lte IE 8]>
         <link rel="stylesheet" href="ie-blocker/ie-blocker.css">
-        <script src="ie-blocker/ie-blocker.en.js" img-path="../images/browser_icons/"></script>
+        <script src="ie-blocker/ie-blocker.en.js" img-path="../your_custom_path/"></script>
         <![endif]-->
 
-    The path in option `img-path` is relative to **ie-blocker.en.js**. And please don't forget the '/' in the end of the path.
+    The value of option `img-path` is a relative path to the **ie-blocker.en.js** file. Don't forget the '/' at the end.
 
 
 
